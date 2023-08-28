@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(63, 3, 68);
+    }
+    
+    .search-field {
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: 1px solid rgb(248, 13, 158);
+        padding: 5px;
+        text-align: center;
+      }
+      
+      .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+      
+      .product-card {
+        color:wheat;
+        background-color: rgb(124, 11, 124);
+        width: 250px;
+        box-shadow: 2px 2px 2px rgba(12, 10, 12, 0.5);
+        border-radius: 25px;
+      }
+      
+      .product-card > img {
+        width: 100%;
+        height: 150px;
+      }
+      
+      .card-content {
+        padding: 5px;
+      }
+      
+      .card-footer {
+        padding-inline: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
